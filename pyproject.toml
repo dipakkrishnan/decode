@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=3.2.0",
     "flax>=0.10.2",
     "jax>=0.5.0",
+    "pandas>=2.2.3",
     "pre-commit>=4.1.0",
+    "tensorflow>=2.18.0",
 ]
